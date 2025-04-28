@@ -1,0 +1,60 @@
+{
+  "name": "postcss-media-query-pruner",
+  "version": "0.0.1",
+  "description": "PostCSS plugin to optimize media query rules and remove duplicates.",
+  "license": "0BSD",
+  "author": {
+    "name": "ValerioGc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValerioGc/postcss-media-query-pruner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ValerioGc/postcss-media-query-pruner/issues"
+  },
+  "homepage": "https://github.com/ValerioGc/postcss-media-query-pruner#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "postcss",
+    "plugin",
+    "postcss-plugin",
+    "css",
+    "mediaquery",
+    "mq",
+    "combine",
+    "optimization"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "postcss": ">=8.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "vite": "^6.3.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vitest": "^3.1.1",
+    "terser": "^5.39.0",
+    "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "prettier": "^3.5.3",
+    "test": "vitest",
+    "build:ts": "tsc",
+    "build": "vite build",
+    "prepublishOnly": "npm run build && npm run test"
+  }
+}
