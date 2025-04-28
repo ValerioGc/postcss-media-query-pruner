@@ -1,7 +1,6 @@
 # postcss-media-query-pruner
 
 <p align="center">
-  <img src="https://img.shields.io/npm/l/postcss-media-query-pruner?color=green&label=npm%20license&style=flat-square" alt="npm license" />
   <img src="https://img.shields.io/npm/v/postcss-media-query-pruner?color=red&label=npm%20version&style=flat-square" alt="npm version" />
   <img src="https://img.shields.io/npm/dt/postcss-media-query-pruner?color=blue&label=npm%20downloads&style=flat-square" alt="npm downloads" />
 </p>
