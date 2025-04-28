@@ -1,6 +1,4 @@
 import { Plugin } from 'postcss';
-
-
 /**
  * Configuration Options for PostCSS plugin
  * @see https://github.com/Valerioc/postcss-media-query-pruner to see all options
