@@ -1,6 +1,6 @@
 {
   "name": "postcss-media-query-pruner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin to optimize media query rules and remove duplicates.",
   "license": "0BSD",
   "author": {
